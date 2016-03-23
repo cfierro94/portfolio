@@ -1,0 +1,28 @@
+#competitions img{
+	max-height: 33vh;
+	padding:2%;
+	border-radius: 17px;
+}
+.image-left{
+	padding-left: 0!important;
+}
+
+iframe{
+	float: right;
+	margin: 2%;
+}
+
+#web-pages ul{
+	padding-left: 18px;
+	list-style-type: circle;
+}
+@media screen and (max-width: 700px){
+	iframe{
+    	float: none;
+	}
+	iframe{
+		display: block;
+	    margin: 0 auto;
+	}
+}
+

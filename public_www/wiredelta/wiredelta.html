@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	 	<title>Wondering</title>
+	 	<link rel="SHORTCUT ICON" href="favicon.ico" />
+
+	 	<link href='https://fonts.googleapis.com/css?family=Permanent+Marker' rel='stylesheet' type='text/css'>
+	 	<link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+	 	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+	 	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300' rel='stylesheet' type='text/css'>
+	 	<link rel="stylesheet" type="text/css" href="wiredelta.css">
+	</head>
+	
+	<body>
+	<div id="wrapper-ext"><div id="wrapper">
+		<header><ul>
+			<li><h2>Wondering Things</h2><h2 id="points">. . .</h2></li>
+			<li><h1>Wonder no more!</h1></li>
+		</ul></header>
+
+		<div class="content">
+			<div class="question">
+				<a href="#" class="q-toggle"><h3>Your age</h3></a>
+				<div class="answer">
+					<form id="form-q1">
+						<p>What is your birth year?</p>
+						<select id="select-form-q1"></select>
+					</form>
+					<button onclick="calculateAge()">Submit</button>
+					<p id="q1-answer"></p>
+				</div>
+			</div>
+			<div class="question">
+				<a href="#" class="q-toggle"><h3>The life supply of...</h3></a>
+				<div class="answer">
+					<form id="form-q2">
+						<p>Your age: <input type="text"></p>
+						<p>Amount that you eat/use... per day: <input type="text"></p>
+					</form>
+					<button onclick="calculateSupply()">Submit</button>
+					<p id="q2-answer"></p>
+				</div>
+			</div>
+			<div class="question">
+				<a href="#" class="q-toggle"><h3>About circles</h3></a>
+				<div class="answer">
+					<form id="form-q3">
+						<p>Circle radius: <input type="text"></p>
+					</form>
+					<button onclick="calcCircumference()">Get Circumference</button>
+					<button onclick="calcArea()">Get Area</button>
+					<p id="q3-answer"></p>
+				</div>
+			</div>
+			<div class="question">
+				<a href="#" class="q-toggle"><h3>Celsuis and fahrenheit</h3></a>
+				<div class="answer">
+					<form id="form-q4">
+						<p style="display:inline;">Grades: <input type="text"></p>
+						<select>
+							<option>in &deg;C</option>
+							<option>in &deg;F</option>
+						</select>
+					</form>
+					<button onclick="converter()">Convert</button>
+					<p id="q4-answer"></p>
+				</div>
+			</div>
+
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+			<script type="text/javascript" src="wiredelta.js"></script>
+		</div>
+	</div></div>
+
+	<div class="footer">
+        <a href="http://twitter.com/constanzafierro"><img src="twitter.png" alt="Twitter Logo" class="social-icon"></a>
+        <a href="https://www.facebook.com/profile.php?id=639718710"><img src="facebook.png" alt="Facebook Logo" class="social-icon"></a>
+        <a href="mailto:cfierro@dcc.uchile.cl"><img src="mail.png" alt="Mail Logo" class="social-icon"></a>
+        <p>&copy; 2016 Constanza Fierro.</p>
+    </div>
+
+	</body>
+</html>

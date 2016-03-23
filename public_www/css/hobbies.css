@@ -1,0 +1,76 @@
+h3{
+	margin: 0;
+	margin-bottom: 2%;
+	padding: 1% 2% 2% 2%;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.11);
+}
+/* WHITE BOX */
+section {
+	padding: 2%;
+	margin: 5%;
+	margin-top: 0;
+    border: 1px solid rgba(0, 0, 0, 0.11);
+    background-color: white;
+}
+/* BOX INSIDE THE WHITE'S */
+.box-picture-text{
+	background-color: rgba(242, 242, 242, 0.54);
+    padding: 2%;
+    border-radius: 7px;
+    margin: 3% 0%;
+}
+.box-2picture-text ul{
+	justify-content: space-around;
+}
+.box-2picture-text ul > li:nth-child(1){
+	width: 148px;
+}
+.box-2picture-text ul > li:nth-child(2){
+	width: 230px;
+}
+.box-2picture-text img{
+	width: 100%;
+  	height: auto;
+  	border-radius: 3px;
+}
+.list li{
+	color: black;
+	margin-left: 6%;
+	list-style-type: circle;
+}
+.text{
+	margin-left: 3%;
+	margin-right: 2%;
+}
+
+/********************************************
+PICTURES SERIES
+*********************************************/
+.pictures{
+	margin-right: auto;
+	margin-left: auto;
+	-webkit-flex-flow: row wrap;
+	justify-content: space-around;
+	align-items: flex-start;
+	align-content: stretch;
+}
+
+.pictures > li:nth-child(1){
+	width: 430px;
+}
+.pictures > li:nth-child(2),
+.pictures > li:nth-child(3){
+	width: 210px;
+}
+.pictures > li:nth-child(4){
+	width: 410px;
+}
+.pictures > li:nth-child(5){
+	width: 600px;
+	align-self: flex-end;
+}
+.pictures img{
+  	width: 100%;
+  	height: auto;
+  	border-radius: 7px;
+}
