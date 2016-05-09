@@ -1,92 +1,155 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Constanza Fierro</title>
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link href='https://fonts.googleapis.com/css?family=Josefin+Slab' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Dancing+Script:700' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="css/main.css">
-    <link rel="stylesheet" type="text/css" href="css/hobbies.css">
-    <link rel="stylesheet" type="text/css" href="css/work.css">
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <header> <!-- have the background color and the line at the bottom -->
-      <ul class="flex-container content-responsive" id="my-nav">
-        <li id="name">
-            <h1>Constanza Fierro</h1>
-            <h2 id="domain">Software Engineering</h2>
-          </li>
-        <li id="li-buttons"><nav>
-            <ul class="flex-container" id="buttons">
-                <li><a href="about.html" class="active">About</a></li>
-                <li class="active"><a href="index.html">Work</a></li>
-                <li><a href="hobbies.html">Hobbies</a></li>
-            </ul>
-          </nav></li>
-      </ul>
-    </header>
+	<link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,700' rel='stylesheet' type='text/css'>
 
-    <div class="content">
-      <div class="content-responsive">
+	<!--Import Google Icon Font-->
+	<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
 
-        <section id="web-pages">
-          <h3>Web Practice</h3>
-          <ul>
-            <li><a href="wiredelta/wiredelta.html">Some of JavaScript</a></li>
-          </ul>
-        </section>
+	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+	<script src="js/modernizr.js"></script> <!-- Modernizr -->
+  	
+	<title>Constanza Fierro</title>
+</head>
+<body>
+	<div id="cd-vertical-nav">
+		<ul>
+			<li>
+				<a href="#section1" data-number="1">
+					<span class="cd-dot"></span>
+					<span class="cd-label">Intro</span>
+				</a>
+			</li>
+			<li>
+				<a href="#section2" data-number="2">
+					<span class="cd-dot"></span>
+					<span class="cd-label">About</span>
+				</a>
+			</li>
+			<li>
+				<a href="#section3" data-number="3">
+					<span class="cd-dot"></span>
+					<span class="cd-label">Features</span>
+				</a>
+			</li>
+			<li>
+				<a href="#section4" data-number="4">
+					<span class="cd-dot"></span>
+					<span class="cd-label">General</span>
+				</a>
+			</li>
+			<li>
+				<a href="#section5" data-number="5">
+					<span class="cd-dot"></span>
+					<span class="cd-label">Others</span>
+				</a>
+			</li>
+			<li>
+				<a href="#section6-contact" data-number="6">
+					<span class="cd-dot"></span>
+					<span class="cd-label">Contact</span>
+				</a>
+			</li>
+		</ul>
+	</div>
+	<a class="cd-nav-trigger cd-img-replace">Open navigation<span></span></a>
 
-        <section id="competitions">
-          <h3>Fun competitions</h3>
-          <div class="box-picture-text">
-            <h2>Acensi Dev Cup</h2>
-            <img src="images/acensi-devcup.jpg" class="image-right">
-            <p>Paris, France (December 2015)</p>
-            <p>I won the 11th position between more than 450 programmers.</p>
-            <p>The competition was made of three phases. The first was about solving algorithm and structures problems, in the second we have to create an strategy to win a game against the others programmers (12 hours of coding and re-coding). And finally, in Paris we had to make a tamagotchi from scratch in just 8 hours.</p>
-            <div style="clear: both"></div>
-          </div>
+	<section id="section1" class="cd-section">
+		<h1>Hi! I'm Constanza</h1>
+		<a href="#section2" class="cd-scroll-down cd-img-replace">scroll down</a>
+	</section><!-- cd-section -->
 
-          <div class="box-picture-text">
-            <h2>Api Fest</h2>
-            <img src="images/api-fest.jpg" class="image-left">
-            <p>Santiago, Chile (June 2015)</p>
-            <p> We finished 8th among 9 other teams.</p>
-            <p>It was a really cool hackathon, we had 24 hours to create an app using any API. We did a website where you could find the activities calendar of the university, because in the time, there were too many Facebook events and even others published in the official page. So we wanted to propose a solution making a page where you could find everything. Also, we used the facebook and google API to sign in, so we could have vip users who were the rights to make changes. </p>
-            <p>Moreover, before that week end, me and my time we didn't know anything about web, and we learned a lot. And in addition, we won an online course to keep developping our programming knowledge</p>
-            <div style="clear: both"></div>
-          </div>
+	<section id="section2" class="cd-section">
+		<div class="container">
+			<div class="row"> <!-- cards about -->
+				<div class="col s12 m6 l4">
+					<div class="card-panel grey lighten-5 z-depth-1">
+			          <div class="row valign-wrapper" style="margin: 0">
+			            <div class="col s3">
+			              <img src="img/pepper.png" alt="" class="responsive-img"> <!-- notice the "circle" class -->
+			            </div>
+			            <div class="col s9">
+			              <span class="valign black-text">
+			                I'm Chilean
+			              </span>
+			            </div>
+			          </div>
+			        </div>
+				</div>
+				<div class="col s12 m6 l4">
+					<div class="card-panel grey lighten-5 z-depth-1">
+			        	<div class="row valign-wrapper" style="margin: 0">
+			            	<div class="col s3">
+			              		<img src="img/graduate.png" alt="" class="responsive-img"> 
+			            	</div>
+				            <div class="col s9">
+				            	<span class="valign black-text">I'm a woman</span>
+				            </div>
+			          	</div>
+					</div>
+				</div>
+				<div class="col s12 m6 offset-m3 l4">
+					<div class="card-panel grey lighten-5 z-depth-1">
+			          <div class="row valign-wrapper" style="margin: 0">
+			            <div class="col s3">
+			              <img src="img/computer.png" alt="" class="responsive-img"> <!-- notice the "circle" class -->
+			            </div>
+			            <div class="col s9">
+			              <span class="valign black-text">
+			                And I love computer science
+			              </span>
+			            </div>
+			          </div>
+			        </div>
+				</div>
+			</div>
 
-          <div class="box-picture-text">
-            <h2>Mining Challenge</h2>
-            <iframe width="270" height="150" src="https://www.youtube.com/embed/piHzxin0pno" frameborder="0" allowfullscreen></iframe>
-            <p>Santiago, Chile (2012)</p>
-            <p>I was still in the school and I saw that competition in the internet, I wasn't part of any robotic team, even my school didn't have one. But I was motivated and I talked with two mates that maybe would be interesting, then I went to talk to a teacher, and that was how I created our robotic team.</p>
-            <p>The challenge was make a robot that could climb a "mountain" carrying an object. As you could see in the video (and yes, it's me in the minute 0:52)</p>
-            <div style="clear: both"></div>
-          </div>
-        </section>
-      </div>
-    </div>
-    
-    <div class="footer">
-        <a href="http://twitter.com/constanzafierro"><img src="images/twitter-wrap.png" alt="Twitter Logo" class="social-icon"></a>
-        <a href="https://www.facebook.com/profile.php?id=639718710"><img src="images/facebook-wrap.png" alt="Facebook Logo" class="social-icon"></a>
-        <a href="https://github.com/cfierro94"><img src="images/git-test.png" alt="Git Logo" class="social-icon"></a>
-        <p id="p-footer">&copy; 2016 Constanza Fierro.</p>
-    </div>
+			<div class="row">
+				<div class="col s12 center">
+					<a class="btn amber darken-1 waves-effect waves-orange" href="img/CV-Constanza-Fierro.pdf" target="_blank"><i class="material-icons right">play_for_work</i>Download CV</a>
+				</div>
+				<div class="col s12">
+					
+				</div>
+			</div>
+		</div>
+		<div id="text-scroll">
+			<a href="#section3" class="cd-scroll-down">Projects and Hobbies</a>
+		</div>
+		<a href="#section3" class="cd-scroll-down cd-img-replace">scroll down</a>
 
-    </div>
-  </body>
+		<!-- <p>I'm <a href="#section1"> Chilean</a>, I'm a <a href="#section1">woman</a> and I'm currently studying software engineering.
+		<br><br> Go down to see my projects and hobbies, or just download my <a href="img/CV Constanza Fierro.pdf" target="_blank" id="cv">CV</a>.</p> -->
+	</section><!-- cd-section -->
+
+	<section id="section3" class="cd-section">
+		<p>This page is being remodeling <br>
+		Please visit the <a href="old-site/index.html">old site</a> for more information</p>
+	</section><!-- cd-section -->
+
+	<section id="section4" class="cd-section">
+		<p>&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto numquam, totam iusto officia earum perferendis, culpa ad atque eveniet praesentium nobis expedita similique beatae tenetur. Distinctio vel tenetur, id cum.&rdquo;</p>
+	</section><!-- cd-section -->
+
+	<section id="section5" class="cd-section">
+		<p>&ldquo;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto numquam, totam iusto officia earum perferendis, culpa ad atque eveniet praesentium nobis expedita similique beatae tenetur. Distinctio vel tenetur, id cum.&rdquo;</p>
+	</section><!-- cd-section -->
+
+	<section id="section6-contact" class="cd-section">
+		<p><a href="https://github.com/cfierro94">GitHub</a><br>
+			<a href="http://twitter.com/constanzafierro">Twitter</a><br>
+			<a href="mailto:cfierro94@dcc.uchile.cl" target="_top">Email</a>
+		</p>
+	</section><!-- cd-section -->
+	
+<script src="js/jquery-2.1.1.js"></script>
+<script type="text/javascript" src="js/materialize.min.js"></script>
+<script src="js/main.js"></script> <!-- Resource jQuery -->
+</body>
 </html>
